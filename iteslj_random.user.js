@@ -51,7 +51,7 @@ function updateRandomizeSection() {
             $('center + ul > li', tempDom),
             $('div.main > ul > ul > ul > li', tempDom),
             $('div.main > li > ul > li', tempDom),
-            //$('div.main > ul > ul > li', tempDom),
+            $('div.main > ul > ul > li', tempDom),
         ].sort((a, b) => b.length - a.length)[0];
 
         const selectedTopic = getRandomItem(availableTopics);
